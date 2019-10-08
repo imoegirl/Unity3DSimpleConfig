@@ -3,7 +3,21 @@
 
 **1. 配置文件格式如下**
 
-<img src="https://i.loli.net/2019/10/08/SKyuweNVY7Q2gnv.png" align=left />
+```txt
+GameFrame = 60
+
+[Login]
+LoginChannel = 1
+TestUserName = JackLong
+TestPassword = HahaFuckyou
+
+[Net]
+Timeout = 3.5
+
+[Debug]
+DebugMode = true
+DebugMode2 = false
+```
 
 **"[ ]"** 中的部分，为模块名称，像 **GameFrame** 这样没有在某个模块下的配置，为全局配置
 
